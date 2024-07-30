@@ -1,30 +1,86 @@
+header {
+  background-color: #1982C4;
+  color: #FC7222;
+  padding: 10px 20px;
+  display: flex;
+    align-items: center; /* Ajouter cette ligne */
+    justify-content: space-between;
+}
 
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  flex-grow: 1;
+  text-align: center;
+  font-family: 'Impact', sans-serif;
+  
+}
 
 h1{
-	color:#0EFBD1  ;
-	text-align: center;
+  color:#0EFBD1  ;
+  text-align: center;
+
 }
 h2{
-	color: #0EFBD1   ;
+  color: #0EFBD1   ;
 
 }
 h4{
-	color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 P{
-	background-color: #BD4F6C;
+  background-color: #BD4F6C;
 }
 
 body{
-	font-family: Arial, sans-serif;
-	font-style:italic;
-	background-color:#D7816A;
-	background-image: url(jjkk.jpg);*/
-	background-image: url(pipi prout.MP4);
+  font-family: Arial, sans-serif;
+  font-style:italic;
+  background-color:#D7816A;
+  /*background-image: url(jjkk.jpg);*/
+  /*background-image: url(pipi prout.MP4);*/
 
 }
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
+#myVideo {
+  position: fixed;
+  right: 0%;
+  bottom: 0;
+   min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 2em;
+}
+
+#nouvelle-page {
+  position: fixed;
+  top:50;
+  left:50;
+  width: 50%;
+  height: 50%;
+  z-index:2;
+}
+
+.nouveau-lien::before {
+  content: "Accéder à la nouvelle page";
+  cursor: pointer;
+  display: inline-block;
+}
+.nouveau-lien:hover::before {
+  text-decoration: underline;
+}
+
+ 
 
  
 
@@ -32,6 +88,6 @@ body{
 
     
 
-	  
-	
+    
+  
 
